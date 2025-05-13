@@ -6,6 +6,8 @@ import Navbar from './Components/Navbar';
 import Sidebar from './Components/Sidebar';
 import APOD from './Components/APOD';
 import Menu from './Components/Menu';
+import ChatBot from './Components/ChatBot';
+
 
 const getTimeOfDay = () => {
   const hours = new Date().getHours();
@@ -126,6 +128,7 @@ function App() {
           <Time textClass={getClass('text')} />
           <GoogleSearchBar textClass={getClass('text')} inputClass={getClass('input')} buttonClass={getClass('button')} />
           <TodoApp buttonClass={getClass('button')} />
+          <ChatBot />
         </div>
       )}
     </div>

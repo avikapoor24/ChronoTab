@@ -10,7 +10,14 @@ module.exports = {
         morning: '#A7C7E7', 
         afternoon: '#FF9B45',
         evening: '#F081C7', 
-        night: '#2A2E44', 
+        night: '#2A2E44',
+        chatgpt: {
+          green: '#10A37F',           // ChatGPT accent color
+          darkBg: '#202123',          // Dark background (approx.)
+          lightBg: '#F7F7F8',         // Light background (approx.)
+          darkText: '#E5E5E5',        // Light gray text on dark bg
+          lightText: '#202123',       // Dark text on light bg
+        }, 
       },
       backgroundImage: {
         'dawn-gradient': 'linear-gradient(to right, #FFD6E0, #A7C7E7)',
